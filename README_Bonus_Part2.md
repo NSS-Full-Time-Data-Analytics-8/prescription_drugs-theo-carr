@@ -4,7 +4,7 @@ In this set of exercises you are going to explore additional ways to group and o
 
 For the first few exercises, we are going to compare the total number of claims from Interventional Pain Management Specialists compared to those from Pain Managment specialists.
 
-1. Write a query which returns the total number of claims for these two groups. Your output should look like this: 
+1. Write a query which returns the total number of claims for these two groups. Your output should look like this:
 
 specialty_description         |total_claims|
 ------------------------------|------------|
@@ -32,11 +32,11 @@ Pain Management               |                |       72487|
 Interventional Pain Management|                |       57239|
 
 5. Modify your query by replacing the GROUPING SETS with ROLLUP(opioid_drug_flag, specialty_description). How is the result different from the output from the previous query?
-
+*the query now shows overlapping categories, like the total claims for opioids by pain management specialists and non opioids alike*
 6. Switch the order of the variables inside the ROLLUP. That is, use ROLLUP(specialty_description, opioid_drug_flag). How does this change the result?
-
+*the first way gave the total of opiod flag category but not the specialists category, when you flip the order of the rollup it instead gives the total for the specialists category*
 7. Finally, change your query to use the CUBE function instead of ROLLUP. How does this impact the output?
-
+*it's as if a union was applied to the rollup in both directions, you can see the totals for the specialists and the opioid categories*
 8. In this question, your goal is to create a pivot table showing for each of the 4 largest cities in Tennessee (Nashville, Memphis, Knoxville, and Chattanooga), the total claim count for each of six common types of opioids: Hydrocodone, Oxycodone, Oxymorphone, Morphine, Codeine, and Fentanyl. For the purpose of this question, we will put a drug into one of the six listed categories if it has the category name as part of its generic name. For example, we could count both of "ACETAMINOPHEN WITH CODEINE" and "CODEINE SULFATE" as being "CODEINE" for the purposes of this question.
 
 The end result of this question should be a table formatted like this:
