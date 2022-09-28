@@ -7,8 +7,10 @@
     b. Which specialty had the most total number of claims for opioids?
 *Nurse Practitioner 900,845*
     c. **Challenge Question:** Are there any specialties that appear in the prescriber table that have no associated prescriptions in the prescription table?
+*YES, 15/107 SPECIALTIES DO NOT HAVE A CORRESPONDING CLAIM IN THE PRESCRIPTION TABLE* 
 
-    d. **Difficult Bonus:** *Do not attempt until you have solved all other problems!* For each specialty, report the percentage of total claims by that specialty which are for opioids. Which specialties have a high percentage of opioids?
+    d. **Difficult Bonus:** *Do not attempt until you have solved all other problems!* For each specialty, report the percentage of total claims by that specialty which are for opioids. Which specialties have a high percentage of opioids? 
+*INTERVENTIONAL PAIN MANAGEMENT HAS THE HIGHEST NUMBER OF OPIOID CLAIMS, BUT IS NOT THE HIGHEST PERCENTAGE; THE HIGHEST PERCENTAGE IS CASE MANAGER/CARE COORDINATOR, BUT HAS A LOW NUMBER OF TOTAL CLAIMS. OTHER HIGH PERCENTAGES ARE ORTHOPAEDIC SURGERY AND ANESTHESIOLOGY*
 
 3. a. Which drug (generic_name) had the highest total drug cost?
 *Insulin Glargine, Hum.Rec.Anlog 104264066.35, using aggregate of each drug name in prescription,not highest reported record within prescription table*

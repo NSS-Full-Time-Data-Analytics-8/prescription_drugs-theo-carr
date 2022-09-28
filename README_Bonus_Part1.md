@@ -2,11 +2,23 @@
 
 2.
     a. Find the top five drugs (generic_name) prescribed by prescribers with the specialty of Family Practice.
-
+    "LEVOTHYROXINE SODIUM"
+    "LISINOPRIL"
+    "ATORVASTATIN CALCIUM"
+    "AMLODIPINE BESYLATE"
+    "OMEPRAZOLE"
     b. Find the top five drugs (generic_name) prescribed by prescribers with the specialty of Cardiology.
-
+    "ATORVASTATIN CALCIUM"
+    "CARVEDILOL"
+    "METOPROLOL TARTRATE"
+    "CLOPIDOGREL BISULFATE"
+    "AMLODIPINE BESYLATE"
     c. Which drugs are in the top five prescribed by Family Practice prescribers and Cardiologists? Combine what you did for parts a and b into a single query to answer this question.
-
+    "ATORVASTATIN CALCIUM"
+    "AMLODIPINE BESYLATE"
+    "LEVOTHYROXINE SODIUM"
+    "LISINOPRIL"
+    "FUROSEMIDE"
 3. Your goal in this question is to generate a list of the top prescribers in each of the major metropolitan areas of Tennessee.
     a. First, write a query that finds the top 5 prescribers in Nashville in terms of the total number of claims (total_claim_count) across all drugs. Report the npi, the total number of claims, and include a column showing the city.
     b. Now, report the same for Memphis.
