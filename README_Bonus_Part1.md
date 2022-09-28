@@ -10,7 +10,7 @@
     b. Find the top five drugs (generic_name) prescribed by prescribers with the specialty of Cardiology.
     "ATORVASTATIN CALCIUM"
     "CARVEDILOL"
-    "METOPROLOL TARTRATE"
+    "METOPROLOL TARTRATE"  
     "CLOPIDOGREL BISULFATE"
     "AMLODIPINE BESYLATE"
     c. Which drugs are in the top five prescribed by Family Practice prescribers and Cardiologists? Combine what you did for parts a and b into a single query to answer this question.

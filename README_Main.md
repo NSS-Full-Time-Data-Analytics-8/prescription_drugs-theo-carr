@@ -1,15 +1,15 @@
 1. a. Which prescriber had the highest total number of claims (totaled over all drugs)? Report the npi and the total number of claims.
 *NPI: 1912011792	total_claims: 4538*
     b. Repeat the above, but this time report the nppes_provider_first_name, nppes_provider_last_org_name,  specialty_description, and the total number of claims.
-*"DAVID"	"COFFEY"	"Family Practice"	4538*
+*"DAVID"	"COFFEY"	"Family Practice"	4538* 
 2. a. Which specialty had the most total number of claims (totaled over all drugs)?
 *Family Practice 9,752,347*
     b. Which specialty had the most total number of claims for opioids?
 *Nurse Practitioner 900,845*
     c. **Challenge Question:** Are there any specialties that appear in the prescriber table that have no associated prescriptions in the prescription table?
-*YES, 15/107 SPECIALTIES DO NOT HAVE A CORRESPONDING CLAIM IN THE PRESCRIPTION TABLE* 
+*YES, 15/107 SPECIALTIES DO NOT HAVE A CORRESPONDING CLAIM IN THE PRESCRIPTION TABLE*
 
-    d. **Difficult Bonus:** *Do not attempt until you have solved all other problems!* For each specialty, report the percentage of total claims by that specialty which are for opioids. Which specialties have a high percentage of opioids? 
+    d. **Difficult Bonus:** *Do not attempt until you have solved all other problems!* For each specialty, report the percentage of total claims by that specialty which are for opioids. Which specialties have a high percentage of opioids?
 *INTERVENTIONAL PAIN MANAGEMENT HAS THE HIGHEST NUMBER OF OPIOID CLAIMS, BUT IS NOT THE HIGHEST PERCENTAGE; THE HIGHEST PERCENTAGE IS CASE MANAGER/CARE COORDINATOR, BUT HAS A LOW NUMBER OF TOTAL CLAIMS. OTHER HIGH PERCENTAGES ARE ORTHOPAEDIC SURGERY AND ANESTHESIOLOGY*
 
 3. a. Which drug (generic_name) had the highest total drug cost?
