@@ -1,4 +1,4 @@
-SELECT generic_name, SUM(total_drug_cost) AS total_cost
+SELECT generic_name, SUM(total_drug_cost)::MONEY AS total_cost
 FROM prescription 
 	INNER JOIN drug USING(drug_name)
 GROUP BY generic_name
